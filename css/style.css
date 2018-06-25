@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+    background-color: #f2f2f2;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    width: 97%;
+
+    margin: 0 auto;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+h1, h2, h3,h4, h5, h6 {
+    font-weight: 500;
+    padding: 1em 1em 1em 0;
+    color: #333;
+}
+.meal, .container{
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+.centered {
+    text-align: center;
+    margin: 0 auto;
+    align-content: center;
+}
+.wine a {
+    color: #333;
+}
+a {
+    color: #f85c37;
+    text-decoration: underline;
+}
+a:hover, a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+.navbar{
+    font-weight: 600;
+    padding-right: 30px;
+}
+.navbar a{
+    text-decoration: none;
+}
+/*button.navbar-toggle {*/
+    /*margin-right: 100px;*/
+/*}*/
+#container {
+    padding-top: 50px;
+
+}
+.description, .location {
+    line-height: 1.5em;
+    padding-bottom: 1.5em;
+}
+.price {
+    color: black;
+}
+.restaurant_name {
+    padding-left: 0;
+}
+.dish_img {
+    margin-top: 20px;
+}
+.dish {
+    padding-right: 20px;
+}
+/*.meal_name_dinner {*/
+    /*clear: both;*/
+/*}*/
+
+
