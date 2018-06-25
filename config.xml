@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.phonegap.example"
+    versionCode = "10"
+    version     = "1.0.0" >
+
+<preference name="orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled -->
+<preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
+<preference name="fullscreen"                 value="true" />
+
+<access origin="*" />
+<plugin name="cordova-plugin-whitelist" source="npm"  version="1" />
+<allow-intent href="*" />
+<allow-intent href="http://*/*" />
+<allow-intent href="https://*/*" />
+<allow-intent href="tel:*" />
+<allow-intent href="sms:*" />
+<allow-intent href="mailto:*" />
+<allow-intent href="geo:*" />
+
+<gap:plugin name="cordova-plugin-whitelist" source="npm" />
+
+<plugin name="cordova-plugin-whitelist" spec="1" />
+
+<allow-navigation href="*" />
+<!-- versionCode is optional and Android only -->
+
+  <name>Menu app</name>
+
+  <description>
+      A simple hybrid application
+  </description>
+
+  <author href="http://natakudm.pythonanywhere.com/" email="natakudm@gmail.com">
+      Natalya Kudryashova
+  </author>
+
+
+</widget>
